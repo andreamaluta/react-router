@@ -20,7 +20,7 @@ const Actors = () => {
             <div className="container">
                 <div className="row">
                     {actress.map((act) => (
-                        <div key={act.id} className="col-12 my-3">
+                        <div key={act.id} className="col-12 mb-3">
                             <div className="card d-flex flex-row">
                                 <div className="card-img">
                                     <img src={act.image} alt="" />

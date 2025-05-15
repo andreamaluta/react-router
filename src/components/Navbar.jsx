@@ -22,11 +22,11 @@ const Navbar = () => {
         <div>
             <header>
                 <nav>
-                    <ul>
+                    <ul className='list-unstyled d-flex justify-content-center'>
                         {link.map((item, index) => {
                             return (
-                                <li key={index}>
-                                    <NavLink to={item.path}>{item.label}</NavLink>
+                                <li key={index} className='m-4'>
+                                    <NavLink className='text-decoration' to={item.path}>{item.label}</NavLink>
                                 </li>
                             )
                         })}

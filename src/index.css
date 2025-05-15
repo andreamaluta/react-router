@@ -1,3 +1,16 @@
+/* navbar */
+.text-decoration {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(176, 237, 255);
+    box-shadow: 10px 10px 5px #d1d1d1;
+}
+
+/* actors page */
 .card-img {
     width: 50%;
 }
