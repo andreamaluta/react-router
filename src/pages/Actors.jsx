@@ -1,17 +1,17 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-const Product = () => {
+const Actors = () => {
     return (
         <>
             <Navbar />
 
             <div>
-                <h1>prodotti</h1>
+                <h1>Attori</h1>
             </div>
 
         </>
     )
 }
 
-export default Product
+export default Actors

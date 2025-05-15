@@ -13,8 +13,8 @@ const Navbar = () => {
             label: 'About',
         },
         {
-            path: '/product',
-            label: 'Product',
+            path: '/actors',
+            label: 'Actors',
         }
     ];
 
