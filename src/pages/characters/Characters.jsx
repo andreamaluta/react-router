@@ -22,7 +22,7 @@ const Actors = () => {
                 <div className="row">
                     {character.map((char) => (
                         <div key={char.id} className="col-12 mb-3">
-                            <Link to={`/characters/${char.id}`} className='text-decoration-none' >
+                            <Link to={`/actors/${char.id}`} className='text-decoration-none' >
                                 <div className="card d-flex flex-row">
                                     <div className="card-img">
                                         <img src={char.image} alt="" />
