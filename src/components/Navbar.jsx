@@ -14,7 +14,7 @@ const Navbar = () => {
         },
         {
             path: '/actors',
-            label: 'Actors',
+            label: 'Characters',
         }
     ];
 
