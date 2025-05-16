@@ -31,3 +31,9 @@ header {
 .bio {
     text-align: center;
 }
+
+
+/* classe active */
+li a.active {
+    font-weight: 800;
+}
