@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import About from './pages/About'
-import Actors from './pages/Actors'
+import Actors from './pages/actors/Actors'
 
 
 function App() {
